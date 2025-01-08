@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 
 public class main{
@@ -30,6 +30,11 @@ public class main{
             o = num1 + num2;
             break;
 
+        case '-':
+            o = num1 - num2;
+            break;
+
+
 	}
 
 
@@ -37,8 +42,6 @@ public class main{
 
  
 
-=======
-case '-':
-            o = num1 - num2;
-            break;
->>>>>>> substraction
+
+
+
