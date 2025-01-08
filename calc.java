@@ -2,6 +2,7 @@
 
 
 
+
 public class main{
 
 	public static void main(String [] args){
@@ -39,6 +40,14 @@ public class main{
             o = num1 * num2;
             break;
 
+        case '/':
+            o = num1 / num2;
+            break;
+ 
+        default:
+            System.out.println("You enter wrong input");
+        }
+
 
 	}
 
@@ -46,6 +55,10 @@ public class main{
 }
 
  
+
+
+
+
 
 
 
